@@ -7,8 +7,12 @@ import Logo from "./atoms/inputComponents/Logo";
 import CancleButton from "./atoms/CancleButton";
 import RegisterButton from "./atoms/RegisterButton";
 import RightSideImage from "./atoms/RightSideImage";
+import { useSelector } from "react-redux";
+import { Nav } from "react-bootstrap";
 
 function RegisterAsFarmer() {
+  const isAuthenticated = useSelector((state) => state.isAuthenticated);
+  // isAuthenticated === 'true' ? <nav ></nav>
   return (
     <div>
       <div class="container align-center" style={{ display: "inline-flex" }}>
@@ -32,6 +36,9 @@ function RegisterAsFarmer() {
                     label={"First Name"}
                     width={"260px"}
                     marginLeft={"4.5rem"}
+                    backgroundColor={"#333645"}
+                    border="none"
+                    borderRadius="8px"
                   />{" "}
                 </div>
                 <div className="col md-6">
@@ -39,6 +46,9 @@ function RegisterAsFarmer() {
                     label={"Last Name"}
                     width={"260px"}
                     marginLeft={"1rem"}
+                    backgroundColor={"#333645"}
+                    border="none"
+                    borderRadius="8px"
                   />
                 </div>
               </div>
@@ -51,6 +61,9 @@ function RegisterAsFarmer() {
                     label={"Mobile Number"}
                     width={"260px"}
                     marginLeft={"4.5rem"}
+                    backgroundColor={"#333645"}
+                    border="none"
+                    borderRadius="8px"
                   />{" "}
                 </div>
                 <div className="col md-6">
@@ -58,6 +71,9 @@ function RegisterAsFarmer() {
                     label={"E-mail ID"}
                     width={"260px"}
                     marginLeft={"1rem"}
+                    backgroundColor={"#333645"}
+                    border="none"
+                    borderRadius="8px"
                   />
                 </div>
               </div>
@@ -66,6 +82,9 @@ function RegisterAsFarmer() {
                   label={"Location of the Agriculture filed"}
                   width={"587px"}
                   marginLeft={"4.5rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />{" "}
               </div>
               <div className="col">
@@ -73,6 +92,9 @@ function RegisterAsFarmer() {
                   label={"Password"}
                   width={"587px"}
                   marginLeft={"4.5rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />{" "}
               </div>
               <div className="col">
@@ -80,6 +102,9 @@ function RegisterAsFarmer() {
                   label={"Confirm Password"}
                   width={"587px"}
                   marginLeft={"4.5rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />{" "}
               </div>
               <div

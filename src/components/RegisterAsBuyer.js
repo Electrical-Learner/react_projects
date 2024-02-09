@@ -38,6 +38,9 @@ function RegisterAsBuyer() {
                   label={"Last Name"}
                   width={"260px"}
                   marginLeft={"1rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />
               </div>
             </div>
@@ -47,6 +50,9 @@ function RegisterAsBuyer() {
                   label={"Mobile Number"}
                   width={"260px"}
                   marginLeft={"4.5rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />{" "}
               </div>
               <div className="col md-6">
@@ -54,6 +60,9 @@ function RegisterAsBuyer() {
                   label={"E-mail ID"}
                   width={"260px"}
                   marginLeft={"1rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />
               </div>
             </div>
@@ -63,6 +72,9 @@ function RegisterAsBuyer() {
                   label={"Company Name"}
                   width={"260px"}
                   marginLeft={"4.5rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />{" "}
               </div>
               <div className="col md-6">
@@ -70,6 +82,9 @@ function RegisterAsBuyer() {
                   label={"Compant GST"}
                   width={"260px"}
                   marginLeft={"1rem"}
+                  backgroundColor={"#333645"}
+                  border="none"
+                  borderRadius="8px"
                 />
               </div>
             </div>
@@ -78,6 +93,9 @@ function RegisterAsBuyer() {
                 label={"Password"}
                 width={"587px"}
                 marginLeft={"4.5rem"}
+                backgroundColor={"#333645"}
+                border="none"
+                borderRadius="8px"
               />{" "}
             </div>
             <div className="col">
@@ -85,6 +103,9 @@ function RegisterAsBuyer() {
                 label={"Confirm Password"}
                 width={"587px"}
                 marginLeft={"4.5rem"}
+                backgroundColor={"#333645"}
+                border="none"
+                borderRadius="8px"
               />{" "}
             </div>
             <div

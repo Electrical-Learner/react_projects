@@ -12,7 +12,6 @@ import { Nav } from "react-bootstrap";
 
 function RegisterAsFarmer() {
   const isAuthenticated = useSelector((state) => state.isAuthenticated);
-  // isAuthenticated === 'true' ? <nav ></nav>
   return (
     <div>
       <div class="container align-center" style={{ display: "inline-flex" }}>
